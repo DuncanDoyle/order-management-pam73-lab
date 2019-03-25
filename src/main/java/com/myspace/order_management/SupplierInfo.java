@@ -6,12 +6,58 @@ package com.myspace.order_management;
 
 public class SupplierInfo implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public SupplierInfo() {
-    }
+	@org.kie.api.definition.type.Label(value = "delivery date")
+	private java.util.Date deliveryDate;
+	@org.kie.api.definition.type.Label(value = "best offer")
+	private double offer;
+	@org.kie.api.definition.type.Label(value = "selected")
+	private boolean selected;
+	@org.kie.api.definition.type.Label(value = "user")
+	private java.lang.String user;
 
+	public SupplierInfo() {
+	}
 
+	public java.util.Date getDeliveryDate() {
+		return this.deliveryDate;
+	}
 
+	public void setDeliveryDate(java.util.Date deliveryDate) {
+		this.deliveryDate = deliveryDate;
+	}
+
+	public double getOffer() {
+		return this.offer;
+	}
+
+	public void setOffer(double offer) {
+		this.offer = offer;
+	}
+
+	public boolean isSelected() {
+		return this.selected;
+	}
+
+	public void setSelected(boolean selected) {
+		this.selected = selected;
+	}
+
+	public java.lang.String getUser() {
+		return this.user;
+	}
+
+	public void setUser(java.lang.String user) {
+		this.user = user;
+	}
+
+	public SupplierInfo(java.util.Date deliveryDate, double offer,
+			boolean selected, java.lang.String user) {
+		this.deliveryDate = deliveryDate;
+		this.offer = offer;
+		this.selected = selected;
+		this.user = user;
+	}
 
 }

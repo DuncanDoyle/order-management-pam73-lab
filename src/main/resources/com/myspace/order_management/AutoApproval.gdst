@@ -46,6 +46,23 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>urgency</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>urgency</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <valueList>low,medium,high</valueList>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
       </conditions>
       <window>
         <parameters/>

@@ -23,7 +23,36 @@
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
   </attributeCols>
-  <conditionPatterns/>
+  <conditionPatterns>
+    <Pattern52>
+      <factType>OrderInfo</factType>
+      <boundName>f1</boundName>
+      <isNegated>false</isNegated>
+      <conditions>
+        <condition-column52>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>category</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>category</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <valueList>basic,optional</valueList>
+          <parameters/>
+          <binding></binding>
+        </condition-column52>
+      </conditions>
+      <window>
+        <parameters/>
+      </window>
+      <entryPointName></entryPointName>
+    </Pattern52>
+  </conditionPatterns>
   <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">

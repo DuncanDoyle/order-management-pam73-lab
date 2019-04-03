@@ -1,1 +1,0 @@
-{"id":"6585eaaa-e346-4462-916d-e463d5bb08fc","name":"RequestOffer-taskform","model":{"taskName":"RequestOffer","processId":"order-management.order-management","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}

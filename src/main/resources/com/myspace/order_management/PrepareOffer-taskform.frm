@@ -1,1 +1,0 @@
-{"id":"a9ec3edc-9d65-4189-9e33-4a4c8bd947bb","name":"PrepareOffer-taskform","model":{"taskName":"PrepareOffer","processId":"order-management.order-management","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}

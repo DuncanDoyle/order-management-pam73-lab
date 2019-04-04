@@ -93,5 +93,11 @@ public class OrderInfo implements java.io.Serializable {
 		this.rejectionReason = rejectionReason;
 		this.urgency = urgency;
 	}
+	
+	public String toString() {
+        return String.format(
+                "OrderInfo [orderId=%s, item=%s, category=%s, urgency=%s, price=%s, managerApproval=%s, rejectionReason=%s]",
+                orderId, item, category, urgency, price, managerApproval, rejectionReason);
+    }
 
 }

@@ -59,5 +59,11 @@ public class SupplierInfo implements java.io.Serializable {
 		this.selected = selected;
 		this.user = user;
 	}
+	
+	@Override
+    public String toString() {
+        return String.format("SupplierInfo [user=%s, offer=%s, deliveryDate=%s, selected=%s]", user, offer,
+                        deliveryDate, selected);
+    }
 
 }

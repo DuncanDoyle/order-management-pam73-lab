@@ -94,6 +94,7 @@ public class OrderInfo implements java.io.Serializable {
 		this.urgency = urgency;
 	}
 	
+	@Override
 	public String toString() {
         return String.format(
                 "OrderInfo [orderId=%s, item=%s, category=%s, urgency=%s, price=%s, managerApproval=%s, rejectionReason=%s]",
